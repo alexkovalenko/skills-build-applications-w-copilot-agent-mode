@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<defs>
+		<radialGradient id="octofit-gradient" cx="50%" cy="50%" r="50%">
+			<stop offset="0%" stop-color="#ffe066"/>
+			<stop offset="60%" stop-color="#0d6efd"/>
+			<stop offset="100%" stop-color="#003366"/>
+		</radialGradient>
+		<filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+			<feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#003366" flood-opacity="0.3"/>
+		</filter>
+	</defs>
+	<circle cx="50" cy="50" r="46" fill="url(#octofit-gradient)" stroke="#fff" stroke-width="4" filter="url(#shadow)"/>
+	<g filter="url(#shadow)">
+		<ellipse cx="50" cy="50" rx="28" ry="12" fill="#fff" opacity="0.15"/>
+		<ellipse cx="50" cy="50" rx="20" ry="8" fill="#fff" opacity="0.10"/>
+	</g>
+	<text x="50" y="60" font-size="38" font-weight="bold" text-anchor="middle" fill="#fff" font-family="Arial Rounded MT Bold, Arial, Helvetica, sans-serif" letter-spacing="2">O</text>
+	<circle cx="50" cy="50" r="46" fill="none" stroke="#ffe066" stroke-width="2" stroke-dasharray="6,6"/>
+</svg>
